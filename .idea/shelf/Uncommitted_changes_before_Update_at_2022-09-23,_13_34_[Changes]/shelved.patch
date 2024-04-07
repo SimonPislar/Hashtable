@@ -1,0 +1,19 @@
+Index: linked_list.c
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#include <stdlib.h>\n#include \"linked_list.h\"\n\n// List item\ntypedef struct link item_t;\nstruct link {\n    int value;\n    struct link *next;\n};\n\n// \"Root node\" of a linked list\nstruct list {\n    item_t *first;\n    item_t *last;\n};\n\nioopm_list_t *ioopm_linked_list_create(void) {\n    ioopm_list_t *list = calloc(1, sizeof(ioopm_list_t));\n    return list;\n}\n\nvoid ioopm_linked_list_destroy(ioopm_list_t *list) {\n    if (list->first == NULL) {\n        free(list);\n        return;\n    }\n    item_t *cursor = list->first;\n    item_t *cache = cursor;\n\n    while (cursor != NULL) {\n        cache = cursor->next;\n        free(cursor);\n        cursor = cache;\n    }\n\n    free(list);\n}\n\nitem_t *item_create(int value, item_t *next) {\n    item_t *new_item = calloc(1, sizeof(item_t));\n    new_item->value = value;\n    new_item->next = next;\n    return new_item;\n}\n\nvoid ioopm_linked_list_append(ioopm_list_t *list, int value) {\n    item_t *new_item = item_create(value, NULL);\n    if (list->first == NULL) {\n        list->first = new_item;\n        list->last = new_item;\n        return;\n    }\n    list->last->next = new_item;\n    list->last = new_item;\n}\n\nvoid ioopm_linked_list_prepend(ioopm_list_t *list, int value) {\n    item_t *new_item = item_create(value, list->first);\n    if(list->first == NULL) {\n        list->last = new_item;\n    }\n    list->first = new_item;\n}\n\nvoid ioopm_linked_list_insert(ioopm_list_t *list, int index, int value) {\n    if (index == 0) {\n        ioopm_linked_list_prepend(list, value);\n        return;\n    }\n    item_t *previous_item = list->first;\n    item_t *cursor = list->first;\n    for (int i = 0; i < index; i++) {\n        previous_item = cursor;\n        cursor = cursor->next;\n    }\n    if (previous_item == list->last) {\n        ioopm_linked_list_append(list, value);\n    }\n    item_t *new_item = item_create(value, cursor);\n    previous_item->next = new_item;\n}\n\nint ioopm_linked_list_remove(ioopm_list_t *list, int index) {\n    return 5;\n}\n\n\n\nint ioopm_linked_list_get(ioopm_list_t *list, int index);\n\nbool ioopm_linked_list_contains(ioopm_list_t *list, int element);\n\nint ioopm_linked_list_size(ioopm_list_t *list);\n\nbool ioopm_linked_list_is_empty(ioopm_list_t *list);\n\nvoid ioopm_linked_list_clear(ioopm_list_t *list);\n\n//bool ioopm_linked_list_all(ioopm_list_t *list, ioopm_int_predicate prop, void *extra);\n\n//bool ioopm_linked_list_any(ioopm_list_t *list, ioopm_int_predicate prop, void *extra);\n\n//bool ioopm_linked_list_apply_to_all(ioopm_list_t *list, ioopm_apply_int_function fun, void *extra);
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/linked_list.c b/linked_list.c
+--- a/linked_list.c	(revision 7c2ca8878b881897234abb30d629ca125ac80640)
++++ b/linked_list.c	(date 1663932856770)
+@@ -84,8 +84,6 @@
+     return 5;
+ }
+ 
+-
+-
+ int ioopm_linked_list_get(ioopm_list_t *list, int index);
+ 
+ bool ioopm_linked_list_contains(ioopm_list_t *list, int element);

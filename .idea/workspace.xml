@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="inlupp1" targetName="inlupp1" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="970b9d5e-afd8-4cfd-b6e0-dc77684a3ccf" name="Changes" comment="reverted failed test">
+      <change afterPath="$PROJECT_DIR$/hash_table_tests" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iterator_tests" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linked_list_tests" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../labbar/lab3/str" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hash_table.c" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labbar/lab3/experiment.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../labbar/lab3/experiment.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labbar/lab3/str.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../labbar/lab3/str.c" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="Simon" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="Simon" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="2.1" />
+  </component>
+  <component name="ProjectId" id="2ElK2P9gabgnN2JAzkGfmisSRwZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/simonpisler/Documents/Skolarbeten/IOOPM/simon.pislar.2001/inluppar/inlupp1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="inlupp1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="inlupp1" TARGET_NAME="inlupp1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="inlupp1" RUN_TARGET_NAME="inlupp1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="970b9d5e-afd8-4cfd-b6e0-dc77684a3ccf" name="Changes" comment="" />
+      <created>1663164523039</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663164523039</updated>
+      <workItem from="1663164524976" duration="25466000" />
+      <workItem from="1663268969651" duration="41296000" />
+      <workItem from="1663599684823" duration="8000" />
+      <workItem from="1663599754278" duration="74237000" />
+      <workItem from="1664196182131" duration="64815000" />
+      <workItem from="1664668705197" duration="100924000" />
+      <workItem from="1665337341406" duration="15519000" />
+      <workItem from="1665413155279" duration="175000" />
+      <workItem from="1665427574607" duration="679000" />
+      <workItem from="1665496985881" duration="56000" />
+      <workItem from="1665498977581" duration="665000" />
+      <workItem from="1665503985923" duration="3750000" />
+      <workItem from="1665750537321" duration="604000" />
+      <workItem from="1666108326343" duration="2387000" />
+      <workItem from="1666276594125" duration="6462000" />
+      <workItem from="1667311925824" duration="597000" />
+      <workItem from="1667400289729" duration="858000" />
+      <workItem from="1667739238135" duration="1435000" />
+      <workItem from="1667749295833" duration="3702000" />
+      <workItem from="1668171004626" duration="772000" />
+      <workItem from="1668175806406" duration="17000" />
+      <workItem from="1668175833258" duration="7372000" />
+      <workItem from="1668870326525" duration="21302000" />
+      <workItem from="1669724971439" duration="1816000" />
+      <workItem from="1673301427836" duration="4098000" />
+      <workItem from="1673527973715" duration="728000" />
+      <workItem from="1673528790278" duration="442000" />
+      <workItem from="1673530312039" duration="1944000" />
+      <workItem from="1673724255161" duration="8000" />
+      <workItem from="1674270630938" duration="21000" />
+      <workItem from="1674270959878" duration="140000" />
+      <workItem from="1674271107373" duration="1852000" />
+    </task>
+    <task id="LOCAL-00030" summary="completed iterator step 2.5">
+      <created>1664291389091</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1664291389091</updated>
+    </task>
+    <task id="LOCAL-00031" summary="iterator_remove function implemented but should not be kept, bad implementation due to linked list structure">
+      <created>1664372262853</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1664372262853</updated>
+    </task>
+    <task id="LOCAL-00032" summary="iterator re-implemented, missing insert-function">
+      <created>1664399502196</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1664399502196</updated>
+    </task>
+    <task id="LOCAL-00033" summary="added test for reset-function">
+      <created>1664442950823</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1664442950823</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Resolved merge and moved some imports and data-types around">
+      <created>1664444331510</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1664444331510</updated>
+    </task>
+    <task id="LOCAL-00035" summary="iterator updated with elem_t">
+      <created>1664548474069</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1664548474069</updated>
+    </task>
+    <task id="LOCAL-00036" summary="re-implemented linked list to have a dummy at the start of the list">
+      <created>1664552937491</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1664552937491</updated>
+    </task>
+    <task id="LOCAL-00037" summary="re-implemented the hash table to take elem_t, with known bugs to solve at another time">
+      <created>1664684039683</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1664684039683</updated>
+    </task>
+    <task id="LOCAL-00038" summary="fixed all the bugs that made the program crash">
+      <created>1664684561651</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1664684561651</updated>
+    </task>
+    <task id="LOCAL-00039" summary="fixed hash table test that failed">
+      <created>1664789849871</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1664789849871</updated>
+    </task>
+    <task id="LOCAL-00040" summary="make file updated">
+      <created>1664793185950</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1664793185950</updated>
+    </task>
+    <task id="LOCAL-00041" summary="freq_count.c fixed issues">
+      <created>1664806756015</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1664806756015</updated>
+    </task>
+    <task id="LOCAL-00042" summary="freq_count.c fixed a ton of bugs (seg faults, invalid reads, invalid jump etc.)">
+      <created>1664895319030</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1664895319030</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Fixed memory leaks in freq_count. Code compiles and works with every file although 16k long words take a while">
+      <created>1664971479532</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1664971479532</updated>
+    </task>
+    <task id="LOCAL-00044" summary="prof- and readme-files created">
+      <created>1664974615206</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1664974615206</updated>
+    </task>
+    <task id="LOCAL-00045" summary="half-completed hash_table_size function">
+      <created>1664976816736</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1664976816736</updated>
+    </task>
+    <task id="LOCAL-00046" summary="prepared demonstration. Fixed a few tests, cleaned some code">
+      <created>1665050539464</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1665050539464</updated>
+    </task>
+    <task id="LOCAL-00047" summary="improved implementation of clear-function">
+      <created>1665065297214</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1665065297214</updated>
+    </task>
+    <task id="LOCAL-00048" summary="improved implementation of keys-function">
+      <created>1665066481283</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1665066481283</updated>
+    </task>
+    <task id="LOCAL-00049" summary="improved implementation of values-function">
+      <created>1665066788311</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1665066788311</updated>
+    </task>
+    <task id="LOCAL-00050" summary="changed so that we use is_empty-function instead of size == 0">
+      <created>1665067368537</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1665067368538</updated>
+    </task>
+    <task id="LOCAL-00051" summary="apply_to_all function improved">
+      <created>1665067851002</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1665067851029</updated>
+    </task>
+    <task id="LOCAL-00052" summary="improved iterator_remove's tests">
+      <created>1665068520625</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1665068520625</updated>
+    </task>
+    <task id="LOCAL-00053" summary="improved linked_list_size">
+      <created>1665071280919</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1665071280919</updated>
+    </task>
+    <task id="LOCAL-00054" summary="indentation improvements">
+      <created>1665072264997</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1665072264997</updated>
+    </task>
+    <task id="LOCAL-00055" summary="gcov files created and code coverage tests run">
+      <created>1665135125831</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1665135125831</updated>
+    </task>
+    <task id="LOCAL-00056" summary="added more tests for edge cases in linked list">
+      <created>1665139398728</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1665139398728</updated>
+    </task>
+    <task id="LOCAL-00057" summary="makefile and gcov files updated. New tests added for linked_list">
+      <created>1665143331649</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1665143331649</updated>
+    </task>
+    <task id="LOCAL-00058" summary="further gcov tests. Added comments for presentation">
+      <created>1665146713275</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1665146713275</updated>
+    </task>
+    <task id="LOCAL-00059" summary="new gprof files etc">
+      <created>1665151965877</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1665151965877</updated>
+    </task>
+    <task id="LOCAL-00060" summary="fixed gprof bug and updated makefile">
+      <created>1665155441082</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1665155441082</updated>
+    </task>
+    <task id="LOCAL-00061" summary="updated ioopm_predicate to take eq_functions instead of ht to fix abstraction leak. Fixed known warning">
+      <created>1665340797394</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1665340797394</updated>
+    </task>
+    <task id="LOCAL-00062" summary="removed TODO statement">
+      <created>1665340852107</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1665340852107</updated>
+    </task>
+    <task id="LOCAL-00063" summary="fixed makefile, new small.txt and slight variable change in ht.c">
+      <created>1665404534216</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1665404534216</updated>
+    </task>
+    <task id="LOCAL-00064" summary="changed size function call in ioopm_ht_any">
+      <created>1665404985162</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1665404985163</updated>
+    </task>
+    <task id="LOCAL-00065" summary="debugging double-pointer in look-up">
+      <created>1668908046881</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1668908046881</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Probably error in clear function, all other tests work perfectly fine">
+      <created>1668914522547</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1668914522547</updated>
+    </task>
+    <task id="LOCAL-00067" summary="fixed bug in clear-function">
+      <created>1668916863268</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1668916863268</updated>
+    </task>
+    <task id="LOCAL-00068" summary="added new comment">
+      <created>1669637752524</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1669637752525</updated>
+    </task>
+    <task id="LOCAL-00069" summary="changed yml file">
+      <created>1669638096324</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1669638096324</updated>
+    </task>
+    <task id="LOCAL-00070" summary="change">
+      <created>1669638237360</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1669638237360</updated>
+    </task>
+    <task id="LOCAL-00071" summary="added compile command in make">
+      <created>1669638520314</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1669638520314</updated>
+    </task>
+    <task id="LOCAL-00072" summary="changed make command">
+      <created>1669638571224</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1669638571224</updated>
+    </task>
+    <task id="LOCAL-00073" summary="test github integration with failing test">
+      <created>1669638678206</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1669638678206</updated>
+    </task>
+    <task id="LOCAL-00074" summary="added support for continuoes integration in all test files">
+      <created>1669639718923</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1669639718923</updated>
+    </task>
+    <task id="LOCAL-00075" summary="fixed make file for integration tests">
+      <created>1669639897653</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1669639897653</updated>
+    </task>
+    <task id="LOCAL-00076" summary="reverted failed test to passing test">
+      <created>1669640015552</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1669640015552</updated>
+    </task>
+    <task id="LOCAL-00077" summary="failed a test to see result on github, added changes to makefile">
+      <created>1669640638807</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1669640638807</updated>
+    </task>
+    <task id="LOCAL-00078" summary="reverted failed test">
+      <created>1669640726058</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1669640726058</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="gcov files created and code coverage tests run" />
+    <MESSAGE value="added more tests for edge cases in linked list" />
+    <MESSAGE value="makefile and gcov files updated" />
+    <MESSAGE value="makefile and gcov files updated. New tests added for linked_list" />
+    <MESSAGE value="further gcov tests. Added comments for presentation" />
+    <MESSAGE value="new gprof files etc" />
+    <MESSAGE value="fixed gprof bug and updated makefile" />
+    <MESSAGE value="updated ioopm_predicate to take eq_functions instead of ht to fix abstraction leak. Fixed known warning" />
+    <MESSAGE value="removed TODO statement" />
+    <MESSAGE value="fixed makefile, new small.txt and slight variable change in ht.c" />
+    <MESSAGE value="changed size function call in ioopm_ht_any" />
+    <MESSAGE value="debugging double-pointer in look-up" />
+    <MESSAGE value="Probably error in clear function, all other tests work perfectly fine" />
+    <MESSAGE value="fixed bug in clear-function" />
+    <MESSAGE value="added new comment" />
+    <MESSAGE value="changed yml file" />
+    <MESSAGE value="change" />
+    <MESSAGE value="added compile command in make" />
+    <MESSAGE value="changed make command" />
+    <MESSAGE value="test github integration with failing test" />
+    <MESSAGE value="added support for continuoes integration in all test files" />
+    <MESSAGE value="fixed make file for integration tests" />
+    <MESSAGE value="reverted failed test to passing test" />
+    <MESSAGE value="failed a test to see result on github, added changes to makefile" />
+    <MESSAGE value="reverted failed test" />
+    <option name="LAST_COMMIT_MESSAGE" value="reverted failed test" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/hash_table.c</url>
+          <line>284</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

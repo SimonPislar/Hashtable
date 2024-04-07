@@ -1,0 +1,62 @@
+Index: iterator.c
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/iterator.c b/iterator.c
+--- a/iterator.c	
++++ b/iterator.c	
+@@ -2,7 +2,9 @@
+ #include <stdio.h>
+ #include <stdlib.h>
+ #include "private_resources.h"
++#include "public_resources.h"
+ #include "iterator.h"
++#include "linked_list.h"
+ 
+ ioopm_iter_t *ioopm_list_iterator(ioopm_list_t *list) {
+     ioopm_iter_t *result = malloc(sizeof (struct iter));
+@@ -10,7 +12,6 @@
+     result->list = list;
+     ioopm_linked_list_prepend(result->list, prepend_value); //Allowed to do this?
+     result->current = list->first;
+-    result->previous = list->first;
+     return result;
+ }
+ 
+Index: iterator.h
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/iterator.h b/iterator.h
+--- a/iterator.h	
++++ b/iterator.h	
+@@ -2,6 +2,8 @@
+ #include <stdbool.h>
+ #include "public_resources.h"
+ 
++typedef struct iter ioopm_iter_t;
++
+ /// @brief Create an iterator for a given list
+ /// @param list the list to be iterated over
+ /// @return an iteration positioned at the start of list
+Index: private_resources.h
+===================================================================
+diff --git a/private_resources.h b/private_resources.h
+--- a/private_resources.h	
++++ b/private_resources.h	
+@@ -3,6 +3,7 @@
+ 
+ // List item
+ typedef struct link item_t;
++typedef struct list ioopm_list_t;
+ struct link {
+     int value;
+     struct link *next;
+@@ -22,5 +23,4 @@
+ struct iter {
+     item_t *current;
+     ioopm_list_t *list;
+-    item_t *previous;
+ };

@@ -1,0 +1,3 @@
+/Users/simonpisler/Documents/Skolarbeten/IOOPM/simon.pislar.2001/inluppar/inlupp1/cmake-build-debug/CMakeFiles/inlupp1.dir
+/Users/simonpisler/Documents/Skolarbeten/IOOPM/simon.pislar.2001/inluppar/inlupp1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/simonpisler/Documents/Skolarbeten/IOOPM/simon.pislar.2001/inluppar/inlupp1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
